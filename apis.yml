@@ -1,7 +1,26 @@
 aid: telgani
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/telgani.png
 name: Telgani
-description: Telgani is a company surfaced as a portfolio company of 500-global and added to the API Evangelist
-  network as a stub for enrichment. This profile is a lead awaiting the enrichment pipeline.
+description: Telgani is an app-based car rental aggregator founded in 2018 and headquartered
+  in Riyadh, Saudi Arabia. Its consumer iOS and Android apps let users compare prices and
+  book cars from more than 50 partner rental companies with over 500 branches across the
+  Kingdom, offering doorstep delivery, airport pickup, and daily, monthly, or yearly rentals.
+  Backed by 500 Global, Impact46, and Elm, Telgani has raised roughly $8.5M across a seed
+  round, a 2021 pre-Series A, and a 2023 Series A. Telgani operates as a consumer mobile
+  marketplace and does not publish a public developer API program; this profile captures its
+  public web properties (homepage, privacy policy, terms of service) and its domain security
+  posture.
 url: https://raw.githubusercontent.com/api-evangelist/telgani/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -11,9 +30,16 @@ x-tier: stub
 x-tier-reason: portfolio-lead
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-21'
 tags:
 - Company
+- Car Rental
+- Mobility
+- Marketplace
+- Travel
+- Transportation
+- Saudi Arabia
+- Consumer App
 apis: []
 maintainers:
 - FN: Kin Lane
@@ -23,3 +49,20 @@ maintainers:
 common:
 - type: Website
   url: https://telgani.com
+- type: PrivacyPolicy
+  url: https://www.telgani.com/en/privacy-policy
+- type: TermsOfService
+  url: https://www.telgani.com/en/terms
+- type: iOSApp
+  url: https://apps.apple.com/us/app/telgani-rent-a-car/id1377706766
+- type: AndroidApp
+  url: https://play.google.com/store/apps/details?id=com.telgani
+- type: LinkedIn
+  url: https://www.linkedin.com/company/telgani
+- type: DomainSecurity
+  url: security/telgani-domain-security.yml
+x-enrichment:
+  date: '2026-07-21'
+  status: minimal
+  artifacts_added: 1
+  pass: local-v1
